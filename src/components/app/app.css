@@ -6,3 +6,19 @@
 .top-panel {
   margin: 1rem 0;
 }
+
+@media screen and (max-width: 500px) {
+  *{
+    font-size: 12px;
+  }
+  .todo-app{
+    font-size: 0.8rem;
+  }
+  .top-panel input {
+    margin-bottom: 3px;
+  }
+  .top-panel {
+    flex-direction: column;
+    margin: 3px;
+  }
+}

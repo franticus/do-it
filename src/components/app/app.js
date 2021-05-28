@@ -10,13 +10,11 @@ export default class App extends React.Component {
     maxId = 100;
     state = {
         todoData: [
-            this.createTodoItem('Какая то задача'),
-            this.createTodoItem('Какая то задача'),
-            this.createTodoItem('Какая то задача'),
-            this.createTodoItem('Какая то задача'),
-            this.createTodoItem('Какая то задача'),
-            this.createTodoItem('Какая то задача'),
-            this.createTodoItem('Какая то задача'),
+            this.createTodoItem('Корзина удаляет'),
+            this.createTodoItem('Восклицательный выделяет'),
+            this.createTodoItem('Клик по тексту вычёркивает'),
+            this.createTodoItem('Верхнее поле ищет'),
+            this.createTodoItem('Нижнее поле добавляет')
         ],
         term: '',
         filter: 'all'
